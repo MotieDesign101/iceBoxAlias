@@ -1,0 +1,38 @@
+{
+  "name": "iceboxalias",
+  "version": "0.0.1",
+  "description": "because one name per user just aint good enough",
+  "main": "alias.js",
+  "scripts": {
+    "test": "test",
+    "start": "node alias.js"
+  },
+  "keywords": [
+    "alias",
+    "icebox"
+  ],
+  "author": "tvluke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "bonjour": "^3.2.0",
+    "cors": "2.7.1",
+    "express": "^4.13.4",
+    "ip": "1.1.1",
+    "pg": "^4.5.5",
+    "sequelize": "^3.23.2",
+    "sqlite3": "^3.1.4",
+    "trim": "0.0.1",
+    "openpgp": "2.3.2",
+    "utf-8": "1.0.0"
+  },
+  "devDependencies": {
+    "jake": "latest",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1",
+    "require": "latest",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}
