@@ -1,6 +1,6 @@
 'use strict';
 
-var databaseUri = process.env.JARVISDAT_DB || 'sqlite://development.sqlite';
+var databaseUri = process.env.ICEBOX_DB_URL || 'sqlite://development.sqlite';
 
 var Sequelize = require('sequelize');
 
