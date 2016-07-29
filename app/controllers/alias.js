@@ -12,6 +12,7 @@ module.exports = function(models) {
 
   alias.list = function(req, res) {
     console.log("list alias");
+    console.log(process.env.ICEBOX_DB_URL || 'sqlite://development.sqlite');
     models.Alias.findAll({
     attributes: json_attributes
   }).then(function(returnAlias) {
